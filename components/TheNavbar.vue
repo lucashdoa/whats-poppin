@@ -53,8 +53,6 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
-
 .navigation {
   width: 400px;
   height: 70px;
@@ -64,6 +62,7 @@ export default {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  margin: 20px auto;
 }
 .navigation ul {
   display: flex;
@@ -116,7 +115,7 @@ export default {
   top: -50%;
   width: 60px;
   height: 60px;
-  background: #29fd53;
+  background: var(--emphasys);
   border-radius: 50%;
   border: 6px solid var(--clr);
   transition: 0.5s;
